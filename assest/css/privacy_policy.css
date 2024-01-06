@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Righteous&family=Unbounded:wght@500&family=Vazirmatn:wght@700&display=swap');
+/* Lourity - discord.gg/altyapilar */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: #d31d1c;
+    --color-white: #fff;
+    --color-bg: #242529;
+
+    --container-width-lg: 80%;
+
+    --transition: all 100ms ease;
+}
+
+body {
+    font-family: 'Prosto One', cursive;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: var(--color-bg);
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+a {
+    color: var(--color-white);
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    top: 9rem;
+    overflow: hidden;
+    height: 190vh;
+    margin-bottom: 5rem;
+}
+
+.baslik {
+    font-size: 3.5rem;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header__left p {
+    margin: 1rem 0 2.4rem;
+}
+
+.texter {
+    text-decoration: underline;
+}
+
+.texter:hover {
+    color: #595b62;
+    text-decoration: none;
+}
+
+header img {
+    width: 300px;
+    box-shadow: 0px 0px 40px 2px var(--color-main);
+    border-radius: 200px;
+}
